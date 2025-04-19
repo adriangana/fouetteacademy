@@ -1,140 +1,393 @@
-<!DOCTYPE HTML>
-<!--
-	Coded by Gmapsranker.com | https://gmapsranker.com/
--->
-<html>
-	<head>
-		<title>North York Dance Studio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<!-- Declares the document to be HTML5 -->
+<html lang="en">
+<head>
+  <!-- Character encoding for proper text rendering -->
+  <meta charset="UTF-8">
+  <!-- Ensures proper rendering and touch zooming on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Page title shown in the browser tab -->
+  <title>Richmond Hill Dance Studio</title>
+  <!-- Importing the Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Reset and base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(to bottom right, #fdfcfd, #f4f6f8);
+      color: #333;
+    }
 
-				<!-- Header -->
-					<header id="header">
-						<!-- Main Target Keyword -->
-						<h1>North York Dance Studio</h1>
-						<!-- Main Target Keyword -->
-						
-						<!-- Website URL -->
-						<p><a href="https://www.fouetteacademy.com/">https://www.fouetteacademy.com/</a></p>
-						<!-- Website URL -->
-						
-					</header>
-					<nav id="nav">
-						<ul>
-						<!-- Pages -->
-							<li><a href="aurora.html">Aurora</a></li>
-							<li><a href="brampton.html">Brampton</a></li>
-							<li><a href="king-city.html">King City</a></li>
-							<li><a href="maple.html">Maple</a></li>
-							<li><a href="markham.html">Markham</a></li>
-							<li><a href="mississauga.html">Mississauga</a></li>
-							<li><a href="north-york.html">North York</a></li>
-							<li><a href="index.html">Richmond Hill</a></li>
-							<li><a href="thornhill.html">Thornhill</a></li>
-							<li><a href="toronto.html">Toronto</a></li>
-							<li><a href="vaughan.html">Vaughan</a></li>
-							<li><a href="woodbridge.html">Woodbridge</a></li>
-						<!-- Pages -->	
-						</ul>
-					</nav>
-				<!-- Main -->
-					<div id="main">
+    /* Header styling with gradient background */
+    header {
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
 
-						
-							<section id="content" class="main">
-								<div>
-								<!-- Google Maps CID Embed Code -->
-								<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.287707575647!2d-79.48043820000001!3d43.7876427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e71c013c495%3A0x39a4ed8d3a07c7ce!2sFouett%C3%A9%20Academy%20of%20Dance!5e0!3m2!1sen!2skr!4v1737596406281!5m2!1sen!2skr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe></div>
-								<!-- Google Maps CID Embed Code -->
-								</div>
-								<br>
-								<h2>About North York Dance Studio</h2>
-								
-								<!-- About us Content -->
-								<p>Dance studios are ideal for beginners looking to explore the world of dance. They provide a welcoming environment where individuals can learn at their own pace without fear of judgment. Beginner-friendly classes are designed to build confidence and introduce foundational techniques in an accessible way.
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+    }
 
-<p>Supportive instructors play a key role in creating a positive experience for beginners. Their guidance helps students overcome initial apprehensions and develop a strong foundation. Instructors often use encouragement and constructive feedback to inspire progress and growth.
+    header a {
+      color: #e0e0e0;
+      font-size: 0.95rem;
+      text-decoration: underline;
+    }
 
-<p>Studios offer structured lessons that gradually introduce new concepts and skills. This approach ensures beginners are not overwhelmed and can focus on mastering the basics. The systematic progression helps build a sense of accomplishment and motivates students to continue learning.
+    /* Navigation bar styles */
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
 
-<p>Dance classes also provide a fun and engaging way to stay active. For beginners who may find traditional exercise routines intimidating, dance offers an enjoyable alternative that combines fitness with creativity. The variety of movements keeps classes dynamic and exciting.
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: center;
+      padding: 1rem;
+      gap: 0.75rem;
+    }
 
-<p>Group classes create a sense of community among beginners. Sharing the learning experience with others fosters camaraderie and support. Students often form friendships that enhance their overall enjoyment of the classes.
+    nav a {
+      background: #e9efff;
+      color: #324d67;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      font-weight: 600;
+    }
 
-<p>Studios frequently offer trial classes or beginner workshops, allowing newcomers to explore different styles before committing. This flexibility ensures beginners can find the right fit for their interests and goals.
+    nav a:hover {
+      background: #667eea;
+      color: #fff;
+    }
 
-<p>Dance studios provide a safe and encouraging space for beginners to discover their passion for dance. With the right support and environment, anyone can embark on a fulfilling dance journey, regardless of prior experience.</p>
+    /* Main content container */
+    #main {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 12px;
+      margin-top: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
 
-								<!-- About us Content -->
-				<div>
-				</div>
-								<!-- Related Searches -->
-								<h3>North York Dance Studio Related Searches:</h3>
-									<p>Dance School<br>
-Dance Classes<br>
-Dance School Near Me<br>
-Dance Classes Near Me<br>
-Dance Studio Near Me<br>
-Dance School North York<br>
-Dance Studio North York<br>
-Dance Studio Thornhill<br>
-Dance School Thornhill<br>
-Dance Academy<br></p>
-								<!-- Related Searches -->	
-								
-								<div>
-								<h4>North York Dance Studio Serving Areas:</h4>
-								<!-- Serving Areas Embed Code -->
-								<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/d/embed?mid=15HR4jUDWbgm7PL0AoF1SN4RTeHrx2VU&ehbc=2E312F' width='640' height='480'></iframe></div>
-								<!-- Serving Areas Embed Code -->
-								</div>
-								
-							</section>
+    /* Headings styling */
+    h2, h3, h4 {
+      color: #667eea;
+      margin-top: 1.5rem;
+    }
 
-					</div>
+    /* Embedded iframe styling */
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      margin-top: 1rem;
+      border-radius: 10px;
+    }
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<!-- Description -->
-							<h2>North York Dance Studio</h2>
-							<p>op-rated dance studio in Vaughan & North York for kids ages 2.5+. Join Fouetté Academy today! Long description: Top-rated dance studio in Vaughan & North York! Fouetté Academy offers dance classes for kids 2.5+ in ballet, jazz, hip-hop, and more. Join our recreational, pre-competitive, or competitive programs and enjoy annual shows and competitions. New boys (3–16) get 50% off their first year!</p>
-							<!-- Description -->
-						</section>
-						<section>
-							<h2>Contact Details</h2>
-							<dl class="alt">
-								<dt>Address:</dt>
-								<!-- Address -->
-								<dd>40 Viceroy Rd Unit 6-7, Concord, ON L4K 2L8, Canada</dd>
-								<!-- Address -->
-								<dt>Phone:</dt>
-								<!-- Phone Number -->
-								<dd>+14168754146</dd>
-								<!-- Phone Number -->
-							</dl>
-							
-						</section>
-						<p class="copyright">&copy; 2025 Powered by: <a href="https://gmapsranker.com">GmapsRanker</a></p>
-					</footer>
+    /* FAQ button styling */
+    .faq-question {
+      width: 100%;
+      background: #667eea;
+      color: white;
+      padding: 1rem;
+      border: none;
+      border-radius: 8px;
+      text-align: left;
+      margin-top: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
 
-			</div>
+    /* FAQ answer hidden by default */
+    .faq-answer {
+      display: none;
+      padding: 1rem;
+      background: #f0f4ff;
+      border-left: 4px solid #667eea;
+      border-radius: 0 8px 8px 8px;
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    /* Footer section styles */
+    footer {
+      background: #f7f7f7;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+      color: #444;
+    }
 
-	</body>
+    footer a {
+      color: #667eea;
+      text-decoration: none;
+    }
+
+    footer dl {
+      margin-top: 1rem;
+    }
+
+    footer dd {
+      margin-bottom: 0.5rem;
+    }
+	
+	.reviews {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f9f9ff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.reviews blockquote {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid #667eea;
+  font-style: italic;
+  color: #555;
+}
+.reviews footer {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Site Header -->
+  <header>
+    <h1>Richmond Hill Dance Studio</h1>
+    <a href="https://www.fouetteacademy.com/">www.fouetteacademy.com</a>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+	  <li><a href="index.html">Home</a></li>
+      <li><a href="aurora.html">Aurora</a></li>
+      <li><a href="brampton.html">Brampton</a></li>
+      <li><a href="king-city.html">King City</a></li>
+      <li><a href="maple.html">Maple</a></li>
+      <li><a href="markham.html">Markham</a></li>
+      <li><a href="mississauga.html">Mississauga</a></li>
+      <li><a href="north-york.html">North York</a></li>
+      <li><a href="index.html">Richmond Hill</a></li>
+      <li><a href="thornhill.html">Thornhill</a></li>
+      <li><a href="toronto.html">Toronto</a></li>
+      <li><a href="vaughan.html">Vaughan</a></li>
+      <li><a href="woodbridge.html">Woodbridge</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Section -->
+  <div id="main">
+    
+    <!-- Google Maps Embed -->
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.287707575647!2d-79.48043820000001!3d43.7876427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e71c013c495%3A0x39a4ed8d3a07c7ce!2sFouett%C3%A9%20Academy%20of%20Dance!5e0!3m2!1sen!2skr!4v1737596406281!5m2!1sen!2skr"
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+<h2>Experience the Art of Movement at Richmond Hill Dance Studio</h2>
+<p> &nbsp;</p>
+<!-- Thumbnail Section -->
+<div style="width: 300px; height: 300px; overflow: hidden; float: left; margin-right: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img 
+    src="https://www.fouetteacademy.com/wp-content/uploads/2024/08/f5a9858c-439e-4261-b260-497783e638cf.jpg" 
+    alt="Richmond Hill Dance Studio Thumbnail"
+    style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+  <p>
+    Welcome to Richmond Hill Dance Studio, your premier destination for high-quality dance education in Vaughan, North York, and surrounding areas. Whether you're a complete beginner or an experienced dancer, our studio offers a supportive environment where creativity and skill thrive. With our experienced instructors and a wide variety of classes, we cater to students of all ages and backgrounds who share a passion for movement and music.
+  </p>
+
+  <h2>More Than Just Dance</h2>
+  <p>
+    Dance is not just about steps and routines—it's a powerful form of expression that builds confidence, discipline, and fitness. At Richmond Hill Dance Studio, we take pride in our holistic approach to teaching. Our students not only develop technical proficiency but also grow personally through teamwork and the joy of performing. With personalized instruction and engaging choreography, we create a meaningful and unique experience for every dancer.
+  </p>
+
+  <h2>Our Location</h2>
+  <p>
+    Our state-of-the-art facility is conveniently located at <strong>40 Viceroy Rd Unit 6-7, Concord, ON</strong>. You can find us easily on Google Maps. Our studio is equipped with:
+  </p>
+  <ul>
+    <li>Ample space</li>
+    <li>Mirrored walls</li>
+    <li>Sprung floors for safety</li>
+    <li>A welcoming and inclusive atmosphere</li>
+  </ul>
+  <p>
+    We prioritize safety and comfort, creating an environment where dancers of all levels can flourish.
+  </p>
+
+  <h2>Our Dance Programs</h2>
+  <p>We offer a wide variety of dance styles for all age groups, including:</p>
+  <ul>
+    <li><strong>Ballet:</strong> Rooted in classical technique to develop grace, alignment, and discipline</li>
+    <li><strong>Jazz:</strong> Energetic routines that boost coordination and rhythm</li>
+    <li><strong>Hip-Hop:</strong> Fun, upbeat choreography to build confidence and performance skills</li>
+    <li><strong>Lyrical:</strong> A blend of ballet and jazz that emphasizes emotion and storytelling</li>
+    <li><strong>Acro:</strong> Combines dance with gymnastics to develop strength and flexibility</li>
+    <li><strong>Competitive Dance:</strong> Training for dancers who want to excel in performances and competitions</li>
+  </ul>
+
+  <h2>Classes for All Ages</h2>
+  <p>
+    Our curriculum is tailored to suit everyone—from toddlers (as young as 2.5 years) to teens and adults. Each class level is designed to meet developmental and skill-based milestones:
+  </p>
+  <ul>
+    <li><strong>Toddlers:</strong> Focus on fun, musicality, and basic movement</li>
+    <li><strong>Youth:</strong> Skill-building with choreography, drills, and technique</li>
+    <li><strong>Teens & Adults:</strong> Advanced training and performance readiness</li>
+  </ul>
+
+  <h2>Performance Opportunities</h2>
+  <p>Our students shine on stage through:</p>
+  <ul>
+    <li>Recitals</li>
+    <li>Dance competitions</li>
+    <li>Community showcases</li>
+  </ul>
+  <p>
+    These experiences build confidence, teamwork, and motivation. Families love witnessing their child’s growth and joy during performances.
+  </p>
+
+  <h2>Communication & Community</h2>
+  <p>We believe in maintaining strong relationships with parents through:</p>
+  <ul>
+    <li>Regular progress updates</li>
+    <li>Open-door policy</li>
+    <li>Transparent communication</li>
+  </ul>
+  <p>
+    Our mission is to work together with families to nurture confident, creative, and resilient young individuals.
+  </p>
+
+  <h2>Join Us Today!</h2>
+  <p>
+    Looking for a dance studio that values quality training, community, and personal growth? <strong>Richmond Hill Dance Studio</strong> is the place for you. Schedule a <strong>free trial class</strong> and see the difference!
+  </p>
+  <p>
+    Let your child discover the joy of dance—or rekindle your own passion with one of our adult programs.
+  </p>
+
+  <h2>Stay Connected</h2>
+  <p>
+    To stay updated on new classes, events, and announcements, visit our <a href="https://www.fouetteacademy.com/" target="_blank">website</a> or connect with us on our 
+    <a href="https://www.google.com/maps?cid=6477917405747411272" target="_blank">Google Business Profile</a>.  
+  </p>
+  <p><strong>We can’t wait to dance with you!</strong></p>
+
+
+    <!-- About Section -->
+    <h2>About Richmond Hill Dance Studio</h2>
+    <p>Joining a dance studio offers much more than just dance lessons. It provides a sense of community...</p>
+<p>&nbsp;</p>
+<!-- Elfsight Google Reviews | Google Reviews -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-b5c4263a-c243-44b8-b061-abec33de0c50" data-elfsight-app-lazy></div>
+
+    <!-- FAQ Section -->
+    <h2>Frequently Asked Questions</h2>
+    <div id="faq-section">
+      <button class="faq-question">1. What are the benefits of joining a dance studio?</button>
+      <div class="faq-answer"><p>Dance studios offer structured learning, physical fitness, and emotional expression...</p></div>
+
+      <button class="faq-question">2. What age group does Richmond Hill Dance Studio accept?</button>
+      <div class="faq-answer"><p>We welcome kids starting at 2.5 years old...</p></div>
+
+      <button class="faq-question">3. What types of dance classes are available?</button>
+      <div class="faq-answer"><p>We offer ballet, jazz, hip-hop, lyrical, acro, and competitive programs...</p></div>
+
+      <button class="faq-question">4. How does dance improve physical fitness?</button>
+      <div class="faq-answer"><p>Dancing boosts flexibility, balance, strength, and cardiovascular health...</p></div>
+
+      <button class="faq-question">5. Do students get to perform on stage?</button>
+      <div class="faq-answer"><p>Yes! We host annual recitals and competitions for performance experience...</p></div>
+    </div>
+
+
+    <!-- SEO Keywords -->
+    <h3>Related Searches:</h3>
+    <p>Dance School, Dance Classes, Dance Studio Near Me, Dance School North York, Dance Academy, and more...</p>
+
+    <!-- Service Area Map -->
+    <h4>Serving Areas:</h4>
+    <iframe src="https://www.google.com/maps/d/embed?mid=15HR4jUDWbgm7PL0AoF1SN4RTeHrx2VU&ehbc=2E312F"></iframe>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <h2>Richmond Hill Dance Studio</h2>
+    <p>Top-rated dance studio in Vaughan & North York! Offering classes for kids 2.5+ in ballet, jazz, hip-hop, and more...</p>
+    <dl>
+      <dt>Address:</dt>
+      <dd>40 Viceroy Rd Unit 6-7, Concord, ON L4K 2L8, Canada</dd>
+      <dt>Phone:</dt>
+      <dd>+1 416-875-4146</dd>
+    </dl>
+    <p>&copy; 2025 Powered by <a href="https://gmapsranker.com">GmapsRanker</a></p>
+  </footer>
+
+  <!-- Script for FAQ toggle functionality -->
+  <script>
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const answer = btn.nextElementSibling;
+        answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+      });
+    });
+  </script>
+
+  <!-- Local Business Schema for SEO -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Richmond Hill Dance Studio",
+  "url": "https://www.fouetteacademy.com/",
+  "image": "https://www.fouetteacademy.com/assets/logo.png",
+  "description": "Top-rated dance studio offering ballet, jazz, hip-hop and more for kids ages 2.5+ in Vaughan & North York.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "40 Viceroy Rd Unit 6-7",
+    "addressLocality": "Concord",
+    "addressRegion": "ON",
+    "postalCode": "L4K 2L8",
+    "addressCountry": "Canada"
+  },
+  "telephone": "+1-416-875-4146",
+  "openingHours": "Mo-Fr 10:00-20:00",
+  "priceRange": "$$",
+  "keywords": [
+    "dance studio Richmond Hill",
+    "ballet classes Vaughan",
+    "hip-hop dance lessons North York",
+    "kids dance programs Concord",
+    "jazz dance Richmond Hill",
+    "best dance school in Ontario"
+  ]
+}
+</script>
+<!-- Elfsight AI Chatbot | Untitled AI Chatbot -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-a5a9143f-a28c-4648-be8a-11758c976f09" data-elfsight-app-lazy></div>
+</body>
 </html>
